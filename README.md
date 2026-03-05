@@ -45,7 +45,7 @@ After installation, compatible agents can discover the skill from its metadata.
 ## Notes
 
 - Review skills before installing them, especially when they include executable scripts.
-- This repo currently targets the Statsig Console dashboards API plus selected metric workflows.
+- This repo currently targets the Statsig Console dashboards API and selected Cloud metric workflows.
 
 ## License
 
