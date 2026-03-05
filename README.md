@@ -33,6 +33,7 @@ After installation, compatible agents can discover the skill from its metadata.
 
 ## Included Skill
 
+- `statsig`: query Statsig experiments, gates, and dynamic configs through the Statsig MCP
 - `statsig-dashboard`: create dashboards, read dashboards into reusable create payloads, and add or replace dashboard widgets through the Statsig Console API
 - `statsig-create-cloud-metric`: draft or execute Statsig Cloud metric creation requests through the Statsig Console API
 
