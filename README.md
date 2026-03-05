@@ -12,6 +12,12 @@ Install this repo with the Vercel `skills` CLI:
 npx skills add statsig-io/agent-skills --skill statsig-dashboard
 ```
 
+Install the Statsig Cloud metric creation skill:
+
+```bash
+npx skills add statsig-io/agent-skills --skill statsig-create-cloud-metric
+```
+
 Useful variants:
 
 - List installable skills: `npx skills add statsig-io/agent-skills --list`
@@ -28,6 +34,7 @@ After installation, compatible agents can discover the skill from its metadata.
 ## Included Skill
 
 - `statsig-dashboard`: create dashboards, read dashboards into reusable create payloads, and add or replace dashboard widgets through the Statsig Console API
+- `statsig-create-cloud-metric`: draft or execute Statsig Cloud metric creation requests through the Statsig Console API
 
 ## Structure
 
@@ -38,7 +45,7 @@ After installation, compatible agents can discover the skill from its metadata.
 ## Notes
 
 - Review skills before installing them, especially when they include executable scripts.
-- This repo currently targets the Statsig Console dashboards API.
+- This repo currently targets the Statsig Console dashboards API and selected Cloud metric workflows.
 
 ## License
 
