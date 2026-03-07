@@ -9,13 +9,7 @@ It contains public agent skills and supporting scripts for working with Statsig.
 Install this repo with the Vercel `skills` CLI:
 
 ```bash
-npx skills add statsig-io/agent-skills --skill statsig-dashboard
-```
-
-Install the Statsig Cloud metric creation skill:
-
-```bash
-npx skills add statsig-io/agent-skills --skill statsig-create-cloud-metric
+npx skills add statsig-io/agent-skills
 ```
 
 Useful variants:
